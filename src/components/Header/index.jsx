@@ -1,11 +1,14 @@
 import React from 'react'
-import Banner from '../Banner'
+import { Link } from 'react-router-dom'
+import BandLogo from '../BandLogo'
 import SiteNav from '../SiteNav'
 import styles from './styles.css'
 
 const Header = () => (
   <div className={styles.header}>
-    <Banner />
+    <Link className={styles.logoLink} to='/'>
+      <BandLogo />
+    </Link>
     <SiteNav />
   </div>
 )
