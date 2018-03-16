@@ -8,13 +8,13 @@ const Profile = ({
   children
 }) => (
   <div className={styles.profile}>
-    <img className={styles.headshot} src={headshotSrc} alt='headshot' />
+    {headshotSrc && <img className={styles.headshot} src={headshotSrc} alt='headshot' />}
     <div className={styles.info}>
       <div className={styles.header}>
         <div className={styles.name}>{name}</div>
         <div className={styles.title}>{title}</div>
       </div>
-      <div className={styles.bio}>{children}</div>
+      {/*<div className={styles.bio}>{children}</div>*/}
     </div>
   </div>
 )
