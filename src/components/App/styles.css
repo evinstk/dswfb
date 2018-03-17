@@ -2,3 +2,7 @@
   color: #555;
   box-sizing: border-box;
 }
+
+.content {
+  margin-top: 100vh;
+}

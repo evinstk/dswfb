@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.landing {
+  width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
+  font-family: 'Abel';
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  align-items: center;
+}
+
+.nav ul li + li {
+  margin-left: 10rem;
+}

@@ -1,13 +1,16 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
-import Header from '../Header'
+import Landing from '../Landing'
 import About from '../About'
 import styles from './styles.css'
 
 const App = () => (
   <div className={styles.app}>
-    <Header />
-    <Route path='/about' component={About} />
+    <main>
+      <Landing />
+      <div className={styles.content}>
+        <About />
+      </div>
+    </main>
   </div>
 )
 

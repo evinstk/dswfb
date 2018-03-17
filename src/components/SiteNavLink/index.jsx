@@ -1,10 +1,8 @@
-import { NavLink } from 'react-router-dom'
-import { withProps } from 'recompose'
-import { siteNavLink, active } from './styles.css'
+import React from 'react'
+import { siteNavLink } from './styles.css'
 
-const SiteNavLink = withProps({
-  className: siteNavLink,
-  activeClassName: active
-})(NavLink)
+const SiteNavLink = ({ children, ...restProps }) => (
+  <a {...restProps} className={siteNavLink}>{children}</a>
+)
 
 export default SiteNavLink
