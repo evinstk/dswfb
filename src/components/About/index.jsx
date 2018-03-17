@@ -1,15 +1,18 @@
 import React from 'react'
 import styles from './styles.css'
 import Profile from '../Profile'
-import mugJohn from '../../assets/mug-john.jpeg'
+import mugHicks from '../../assets/mug-hicks.jpg'
 import mugMac from '../../assets/mug-mac.jpeg'
+import mugJohn from '../../assets/mug-john.jpeg'
 import mugTanner from '../../assets/mug-tanner.png'
+import mugBrendan from '../../assets/mug-brendan.jpg'
 
 const About = () => (
   <div className={styles.about}>
     <Profile
       name='Hicks Woolwine'
-      title='Bandleader, Bassist'>
+      title='Bandleader, Bassist'
+      headshotSrc={mugHicks}>
       Hicks is the leader of the band, yo.
     </Profile>
     <Profile
@@ -34,7 +37,8 @@ const About = () => (
     </Profile>
     <Profile
       name='Brendan Dorman'
-      title='Trumpet'>
+      title='Trumpet'
+      headshotSrc={mugBrendan}>
       Sings and such.
     </Profile>
   </div>
