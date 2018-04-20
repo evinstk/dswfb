@@ -4,13 +4,14 @@
   padding: 3rem 0;
   min-height: 100vh;
   box-sizing: border-box;
-}
-
-.profiles {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.profiles > * + * {
-  margin-left: 2rem;
+.about > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 5rem;
 }

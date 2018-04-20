@@ -2,18 +2,19 @@ import React from 'react'
 import styles from './styles.css'
 
 const Profile = ({
-  headshotSrc,
+  headshot,
   name,
   title,
   children
 }) => (
   <div className={styles.profile}>
-    {headshotSrc && <img className={styles.headshot} src={headshotSrc} alt='headshot' />}
+    {headshot}
     <div className={styles.info}>
       <div className={styles.header}>
         <div className={styles.name}>{name}</div>
         <div className={styles.title}>{title}</div>
       </div>
+      {children}
       {/*<div className={styles.bio}>{children}</div>*/}
     </div>
   </div>
