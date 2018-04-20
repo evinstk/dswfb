@@ -6,7 +6,7 @@ import styles from './styles.css'
 const Landing = () => (
   <section className={styles.landing}>
     <div className={styles.logo}>
-      <img src={logoSrc} alt='band logo' />
+      <img className={styles.logoImg} src={logoSrc} alt='band logo' />
       <div>Wholly Funk Band</div>
     </div>
     <nav className={styles.nav}>

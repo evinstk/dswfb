@@ -16,10 +16,14 @@
 
   text-align: center;
   font-family: 'Abel';
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   color: #fff;
   line-height: 1.5;
+}
+
+.logoImg {
+  width: 30rem;
 }
 
 .nav {
