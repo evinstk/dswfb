@@ -6,10 +6,10 @@
 .profile {
   position: relative;
   display: flex;
+  padding: 1rem;
 }
 
 .info {
-  color: #fff;
   text-shadow: 1px 1px 1px #000;
   padding: 1rem;
   background-image: linear-gradient(
