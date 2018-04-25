@@ -19,11 +19,18 @@
   font-size: 3rem;
   text-transform: uppercase;
   color: #fff;
-  line-height: 1.5;
+}
+
+.logo > * + * {
+  margin-top: 1.5rem;
 }
 
 .logoImg {
   width: 30rem;
+}
+
+.socialRoot {
+  padding: 3rem 20% 0 20%;
 }
 
 .nav {

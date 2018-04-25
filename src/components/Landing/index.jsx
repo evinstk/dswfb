@@ -1,5 +1,6 @@
 import React from 'react'
 import SiteNavLink from '../SiteNavLink'
+import Social from '../Social'
 import logoSrc from '../../assets/logo-cropped.png'
 import styles from './styles.css'
 
@@ -8,6 +9,9 @@ const Landing = () => (
     <div className={styles.logo}>
       <img className={styles.logoImg} src={logoSrc} alt='band logo' />
       <div>Wholly Funk Band</div>
+      <div className={styles.socialRoot}>
+        <Social />
+      </div>
     </div>
     <nav className={styles.nav}>
       <ul>
