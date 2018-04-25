@@ -21,9 +21,11 @@ const Band = () => (
           name='Hicks Woolwine'
           title='Bandleader, Bassist'
           headshot={<IconBassGuitar height={ICON_SIZE} width={ICON_SIZE} fill={ICON_COLOR} />}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.
+          Hicks got his PhD in Soul Studies from Southern Funk
+          Univerity, with concentrations in Bass Groove and Metal
+          Shred. He also majored in Math to pay the bills. When he's
+          not slapping his bass, he studies for actuary exams and has
+          no life.
         </Profile>
         <Profile
           name='John Bogdal'
@@ -39,8 +41,8 @@ const Band = () => (
           name='Mac Frith'
           title='Drums'
           headshot={<IconDrumSet height={ICON_SIZE} width={ICON_SIZE} fill={ICON_COLOR} />}>
-          His name is Mac. He plays drums. His glasses are not
-          prescription.
+          No one knows how long Mac has been playing drums. All that
+          is certain is that he has no friends. A true lone wolf.
         </Profile>
       </div>
       <div>
