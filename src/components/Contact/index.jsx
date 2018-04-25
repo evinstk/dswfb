@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './styles.css'
 import Page from '../Page'
 import Title from '../Title'
-import Social from '../Social'
 import { BOOKING_EMAIL } from '../../constants'
 
 const Contact = () => (
