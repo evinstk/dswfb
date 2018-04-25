@@ -1,6 +1,6 @@
 import React from 'react'
 import Landing from '../Landing'
-import About from '../About'
+import Band from '../Band'
 import styles from './styles.css'
 
 const App = () => (
@@ -8,7 +8,7 @@ const App = () => (
     <main>
       <Landing />
       <div className={styles.content}>
-        <About />
+        <Band />
       </div>
     </main>
   </div>

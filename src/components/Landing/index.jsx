@@ -12,7 +12,7 @@ const Landing = () => (
     <nav className={styles.nav}>
       <ul>
         <li><SiteNavLink href='#events'>Events</SiteNavLink></li>
-        <li><SiteNavLink href='#about'>The Band</SiteNavLink></li>
+        <li><SiteNavLink href='#band'>The Band</SiteNavLink></li>
         <li><SiteNavLink href='#contact'>Contact</SiteNavLink></li>
       </ul>
     </nav>
