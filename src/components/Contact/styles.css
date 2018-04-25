@@ -1,0 +1,21 @@
+.contact {
+  background: black;
+  min-height: 100vh;
+  position: relative;
+}
+
+.content {
+  flex: 1;
+  font-size: 1.5rem;
+  padding: 20%;
+}
+
+.content > * + * {
+  margin-top: 4rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30%;
+}

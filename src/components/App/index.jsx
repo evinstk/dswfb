@@ -1,6 +1,7 @@
 import React from 'react'
 import Landing from '../Landing'
 import Band from '../Band'
+import Contact from '../Contact'
 import styles from './styles.css'
 
 const App = () => (
@@ -9,6 +10,7 @@ const App = () => (
       <Landing />
       <div className={styles.content}>
         <Band />
+        <Contact />
       </div>
     </main>
   </div>
