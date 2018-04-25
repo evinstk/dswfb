@@ -1,5 +1,9 @@
 html, body {
-  color: #fff;
+  color: #ddd;
   box-sizing: border-box;
   background: black;
+}
+
+a {
+  color: white;
 }
