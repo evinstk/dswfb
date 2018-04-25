@@ -6,6 +6,7 @@
 .profile {
   position: relative;
   display: flex;
+  padding: 1rem;
 }
 
 .info {
